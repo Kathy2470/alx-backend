@@ -52,11 +52,16 @@ class Server:
             page_size (int): The number of items per page. Default is 10.
 
         Returns:
-            List[List]: The rows for the requested page, or an empty list if the page is out of range.
+            List[List]: The rows for the requested page, or an empty list
+            if the page is out of range.
         """
         # Validate the inputs
-        assert isinstance(page, int) and page > 0, "Page must be a positive integer"
-        assert isinstance(page_size, int) and page_size > 0, "Page size must be a positive integer"
+        assert isinstance(page, int) and page > 0, (
+            "Page must be a positive integer"
+        )
+        assert isinstance(page_size, int) and page_size > 0, (
+            "Page size must be a positive integer"
+        )
 
         # Get the dataset
         dataset = self.dataset()
