@@ -5,6 +5,7 @@ Simple helper function to calculate index range for pagination.
 
 from typing import Tuple
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     Calculate the range of indexes for pagination.
