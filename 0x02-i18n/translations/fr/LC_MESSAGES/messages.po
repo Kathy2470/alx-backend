@@ -3,22 +3,12 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
-msgid "home_title"
-msgstr "Bienvenue chez Holberton"
-
-msgid "home_header"
-msgstr "Bonjour monde!"
-
-msgid "logged_in_as"
-msgstr "Vous êtes connecté en tant que %(username)s."
-
-msgid "not_logged_in"
-msgstr "Vous n'êtes pas connecté."
-
+msgid ""
+msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 18:28+0300\n"
-"PO-Revision-Date: 2024-07-30 18:28+0300\n"
+"POT-Creation-Date: 2024-07-30 18:54+0300\n"
+"PO-Revision-Date: 2024-07-30 18:54+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -27,3 +17,4 @@ msgstr "Vous n'êtes pas connecté."
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+
